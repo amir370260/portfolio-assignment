@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ************
+banner + navbar 
+******************* */
+.wtf {
+    display: flex;
+}
+
+/* *************************
+  banner left start here
+******************************/
+
+.left {
+    background: #015761;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+}
+
+/* nav start */
+.logo {
+    margin: 20px 0px 10px 30px;
+    color: #f7dc4f;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-menu ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+/* nav end */
+
+/* banner text */
+.banner-text {
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.banner-text h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #f7dc4f;
+}
+
+.banner-text h1 {
+    line-height: 1.0em;
+    color: white;
+    font-size: 59px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.banner-text p {
+    color: white;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+/* *************************
+  banner right start here
+******************************/
+.right {
+    background: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+}
+
+.social-icon {
+    margin-top: 190px;
+    margin-left: 564px;
+}
+
+.social-icon ul li {
+    list-style: none;
+    background: #f7dc4f;
+    height: 35px;
+    width: 38px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.social-icon ul li:hover {
+    background: #015761;
+}
+
+.social-icon ul li a i {
+    color: black;
+    font-size: 16px;
+}
+
+.social-icon ul li i:hover {
+    color: #f7dc4f;
+}
+
+/* ***************
+    about section start 
+************** */
+.about {
+    background: #f1f0f0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #015761;
+    padding-bottom: 20px;
+}
+
+.about p {
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+
+/* ********************
+    full banner start 
+********************** */
+.fullbanner {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fullbanner h2 {
+    font-size: 30px;
+    color: #015761;
+    margin-bottom: 40px;
+}
+
+.b-image {
+    background: url(../img/fullbanner1.PNG);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 50px;
+}
+
+.b-image i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 204px 0px;
+    font-weight: 400;
+
+}
+
+/* ***************
+portfolio section start
+**************** */
+.item-1,
+.item-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item-1 img,
+.item-2 img {
+    max-width: 100%;
+    margin: 5px 5px;
+
+}
+
+.items h2 {
+    font-size: 35px;
+    color: #015761;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* ******************
+contact section start
+***************** */
+
+.contact {
+    margin-top: 60px;
+    display: flex;
+}
+
+.left-1 {
+    background: url(../img/contact.png);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+.right-1 {
+    background: #015761;
+    width: 50%;
+    height: 100vh;
+    padding: 50px 150px;
+}
+
+.right-1 h2 {
+    font-size: 40px;
+    color: #f7dc4f;
+    margin: 15px 0px;
+    margin: 0;
+    padding: 0;
+}
+.right-1 h4{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 14px;
+    /* margin: 0;
+    padding: 0; */
+}
+.right-1 h3{
+    color: white;
+    margin: 7px 0px;
+    font-size: 15px;
+    font-size: 400;
+    margin-top: 15px;
+}
+.right-1 p{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 1.8em;
+}
+.right-1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 18px;
+}
+.right-1 ul li i{
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 3px;
+    
+}
+.right-1 ul li i:hover{
+    color: #f7dc4f;
+}
+
+/* ************
+footer start here
+******** */
+
+.footer{
+    padding: 20px;
+    text-align: center;
+
+}
+.footer h6{
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+}
